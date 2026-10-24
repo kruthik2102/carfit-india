@@ -1,0 +1,12 @@
+{
+  "name": "carfit-india",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Car buying guide for India: affordability and buyable scores for every new car, with a feature-by-feature comparison table. No backend, no build step.",
+  "type": "module",
+  "scripts": {
+    "serve": "node scripts/serve.mjs",
+    "test": "node --test tests/scoring.test.mjs"
+  },
+  "license": "MIT"
+}

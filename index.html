@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en-IN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>CarFit India — which car can your salary carry?</title>
+  <meta name="description" content="Enter your salary, kilometres and must-have features. CarFit India scores every new car on sale in India for affordability and value, with a feature-by-feature comparison.">
+  <meta name="theme-color" content="#1B4DB1">
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700&family=Saira+Condensed:wght@500;600;700;800&display=swap">
+  <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="topbar">
+    <div class="wrap topbar-in">
+      <a href="#/" class="brand" aria-label="CarFit India, home">
+        <span class="plate plate-xs" aria-hidden="true"><span class="plate-ind"><i></i>IND</span><span class="plate-txt">CF</span></span>
+        <span>CarFit <b>India</b></span>
+      </a>
+      <nav class="nav" aria-label="Main">
+        <a href="#/wizard/1" data-nav="wizard"><span class="nav-lg">Your details</span><span class="nav-sm">Details</span></a>
+        <a href="#/results" data-nav="results">Results</a>
+        <a href="#/compare" data-nav="compare">Compare <span class="badge" id="nav-compare-count"></span></a>
+        <a href="#/method" data-nav="method"><span class="nav-lg">How scores work</span><span class="nav-sm">Scoring</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" tabindex="-1"></main>
+
+  <footer class="footer">
+    <div class="wrap">
+      <p>Prices, ratings and features are estimates and change often. Check the manufacturer's website or a dealer before buying.</p>
+      <p>Your details stay in this browser. Not affiliated with any car maker.</p>
+    </div>
+  </footer>
+
+  <div id="sheet-root"></div>
+  <noscript><p class="wrap">CarFit India needs JavaScript to calculate scores.</p></noscript>
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>

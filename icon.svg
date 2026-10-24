@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect x="2" y="14" width="60" height="36" rx="6" fill="#fff" stroke="#111" stroke-width="3"/>
+  <rect x="5" y="17" width="13" height="30" rx="2" fill="#1B47A8"/>
+  <circle cx="11.5" cy="25" r="4" fill="#d6dde8"/>
+  <text x="11.5" y="42" font-family="Arial Narrow, Arial, sans-serif" font-size="7" font-weight="700" fill="#fff" text-anchor="middle">IND</text>
+  <text x="40" y="41" font-family="Arial Narrow, Arial, sans-serif" font-size="22" font-weight="800" fill="#111" text-anchor="middle">CF</text>
+</svg>
